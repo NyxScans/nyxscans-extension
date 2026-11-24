@@ -1,5 +1,9 @@
 {
-  "name": "NyxScans Extensions",
-  "website": "https://github.com/NyxScans/nyxscans-extension",
-  "signingKeyFingerprint": "51:74:4F:E0:62:5D:35:9E:14:D5:55:B6:69:08:3A:41:AA:06:8A:CA:75:19:AC:64:10:65:F2:98:35:FB:C3:AC"
+  "meta": {
+    "name": "NyxScans Extensions",
+    "shortName": "NyxScans",
+    "website": "https://github.com/NyxScans/nyxscans-extension",
+    "signingKeyFingerprint": "51:74:4F:E0:62:5D:35:9E:14:D5:55:B6:69:08:3A:41:AA:06:8A:CA:75:19:AC:64:10:65:F2:98:35:FB:C3:AC"
+  },
+  "index_v2": null
 }
