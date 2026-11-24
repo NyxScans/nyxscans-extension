@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Marker used by Mihon/Tachiyomi/Suwayomi to detect an extension package. -->
+    <uses-feature
+        android:name="tachiyomi.extension"
+        android:required="true" />
+
+    <application
+        android:label="NyxScans"
+        android:allowBackup="false"
+        android:supportsRtl="true">
+
+        <!-- Entry point: the Source (or SourceFactory) class to instantiate. -->
+        <meta-data
+            android:name="tachiyomi.extension.class"
+            android:value="eu.kanade.tachiyomi.extension.es.nyxscans.NyxScans" />
+
+        <meta-data
+            android:name="tachiyomi.extension.nsfw"
+            android:value="0" />
+
+    </application>
+
+</manifest>

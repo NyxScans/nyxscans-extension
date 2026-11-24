@@ -1,0 +1,18 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local configuration (SDK path, signing secrets)
+local.properties
+keystore.properties
+
+# Signing material — NEVER commit
+keystore/
+*.jks
+*.keystore
+
+# IDE
+.idea/
+*.iml
+.vscode/
