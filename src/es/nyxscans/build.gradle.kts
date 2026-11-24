@@ -20,10 +20,10 @@ android {
         applicationId = "eu.kanade.tachiyomi.extension.es.nyxscans"
         minSdk = 21
         targetSdk = 34
-        versionCode = 2
+        versionCode = 3
         // versionName must encode the extension-lib version ("1.4") so the host
         // app (Mihon/Suwayomi) recognises it as a supported lib (1.4 or 1.6).
-        versionName = "1.4.2"
+        versionName = "1.4.3"
         setProperty("archivesBaseName", "tachiyomi-es.nyxscans-v$versionName")
     }
 
